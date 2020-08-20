@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+import './App.sass';
 
 function App() {
-  return (
-    <div className="App">
-      Это App
-    </div>
-  );
+	return (
+		<div className="App">
+			Это App
+		</div>
+	);
 }
 
 export default App;
