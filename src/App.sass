@@ -18,3 +18,53 @@ ul
 a
 	text-decoration: none
 	transition: .25s
+
+h1, h2
+	font-family: Montserrat, sans-serif
+
+h1
+	font-weight: 900
+	font-size: 66px
+	line-height: 72px
+	text-transform: uppercase
+
+h2
+	font-weight: 800
+	font-size: 35px
+	line-height: 46px
+
+.button
+	font-size: 16px
+	cursor: pointer
+	background: transparent
+	border: 2px solid $textcolor
+	padding: 10px 10px 10px 40px
+	display: flex
+	align-items: center
+	border-radius: 35px
+	font-weight: 700
+	transition: .25s
+	outline: none
+	
+	.buttonIcon
+		display: inline-block
+		width: 46px
+		height: 46px
+		background-color: $textcolor
+		position: relative
+		border-radius: 50%
+		margin-left: 25px
+		
+		svg
+			position: absolute
+			top: 50%
+			left: 50%
+			transform: translate(-50%, -50%)
+
+	&:hover
+		border: 2px solid $accent
+		color: $accent
+		.buttonIcon
+			background-color: $accent
+
+
