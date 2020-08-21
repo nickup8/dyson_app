@@ -1,0 +1,7 @@
+$base_size: 16
+
+@function strip-unit($num)
+    @return $num / ($num * 0 + 1)
+
+@function rem($num) 
+    @return strip-unit($num) / $base_size * 1rem

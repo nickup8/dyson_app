@@ -26,21 +26,21 @@ h1, h2
 
 h1
 	font-weight: 900
-	font-size: 66px
-	line-height: 72px
+	font-size: rem(66px)
+	line-height: rem(72px)
 	text-transform: uppercase
 
 h2
 	font-weight: 800
-	font-size: 35px
-	line-height: 46px
+	font-size: rem(35px)
+	line-height: rem(46px)
 
 .button
-	font-size: 16px
+	font-size: rem(16px)
 	cursor: pointer
 	background: transparent
 	border: 2px solid $textcolor
-	padding: 10px 10px 10px 40px
+	padding: $base*2 $base*2 $base*2 $base*8
 	display: flex
 	align-items: center
 	border-radius: 35px
@@ -50,12 +50,12 @@ h2
 
 	.buttonIcon
 		display: inline-block
-		width: 46px
-		height: 46px
+		width: $base*9
+		height: $base*9
 		background-color: $textcolor
 		position: relative
 		border-radius: 50%
-		margin-left: 25px
+		margin-left: $base*5
 		transition: .25s
 		svg
 			position: absolute
