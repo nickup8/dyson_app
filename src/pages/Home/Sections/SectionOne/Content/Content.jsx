@@ -28,12 +28,7 @@ const Content = () => {
             <div className="rating"></div>
             <div className="description"></div>
           </div>
-          <div className="right">
-            <img src="src/images/imgVideo" alt="Play" />
-            <div className="buttonPlay">
-              <ButtonPlay />
-            </div>
-          </div>
+          <div className="right"></div>
         </div>
       </div>
       <div className="center_column">Центр</div>
