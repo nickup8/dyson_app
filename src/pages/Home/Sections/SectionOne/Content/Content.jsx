@@ -22,13 +22,29 @@ const Content = () => {
             </span>
           </button>
         </div>
-        <div className="testimonials">
-          <div className="left">
-            <div className="name"></div>
-            <div className="rating"></div>
-            <div className="description"></div>
+        <div className={style.testimonials}>
+          <div className={style.left}>
+            <div className={style.name}>
+              <h4>Сергей</h4>
+            </div>
+            <div className={style.rating}>
+              <ul>
+                <li>★</li>
+                <li>★</li>
+                <li>★</li>
+                <li>★</li>
+                <li>★</li>
+              </ul>
+            </div>
+            <div className={style.description}>
+              <p>
+                Уже 5 лет я тесно знаком с фирмой «Dyson». Узнав, что на рынке
+                стал популярен увлажнитель этой модели, заинтересовался им. В
+                ближайшем магазине бытовой техники....
+              </p>
+            </div>
           </div>
-          <div className="right"></div>
+          <div className={style.right}></div>
         </div>
       </div>
       <div className="center_column">Центр</div>

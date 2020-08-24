@@ -21,3 +21,33 @@
             margin-bottom: $base*8
     .buttonArea
         margin-top: $base*10
+    
+    .testimonials
+        display: flex
+        justify-content: space-between
+        background-color: $white
+        border: 1px solid rgba($textcolor, .1)
+        border-radius: 8px
+        overflow: hidden
+        margin-top: 10%
+        .left
+            width: 66.66%
+            padding: $base*7 $base*16 $base*7 $base*9
+            .name
+                h4
+                    font-size: rem(18px)
+                    margin: 0
+            .rating
+                ul
+                    li
+                        display: inline-block
+                        color: $accent
+                        margin: $base 0 $base*2
+            .description
+                p
+                    font-size: rem(14px)
+                    margin: 0
+
+        .right
+            width: 33.33%
+            background: #000
