@@ -44,7 +44,9 @@ const Content = () => {
               </p>
             </div>
           </div>
-          <div className={style.right}></div>
+          <div className={style.right}>
+            <img src="/images/imgVideo.jpg" alt="Видео отзыв" />
+          </div>
         </div>
       </div>
       <div className="center_column">Центр</div>
